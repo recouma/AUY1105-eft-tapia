@@ -1,0 +1,15 @@
+# ============================================================
+# Ejemplo de valores para las variables del proyecto
+# Copiar como terraform.tfvars y ajustar según el ambiente
+# ============================================================
+
+project_name        = "AUY1105-eft"
+aws_region          = "us-east-1"
+environment         = "dev"
+vpc_cidr            = "10.1.0.0/16"
+public_subnet_cidr  = "10.1.1.0/24"
+private_subnet_cidr = "10.1.2.0/24"
+availability_zone   = "us-east-1a"
+instance_type       = "t2.micro"
+key_name            = ""
+allowed_ssh_cidr    = "10.1.0.0/16"
