@@ -1,0 +1,21 @@
+{
+  "resource_changes": [
+    {
+      "address": "module.ec2.aws_instance.main",
+      "type": "aws_instance",
+      "change": {
+        "after": {
+          "instance_type": "t2.micro",
+          "tags": {
+            "Name": "AUY1105-eft-ec2"
+          },
+          "root_block_device": [
+            {
+              "encrypted": true
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

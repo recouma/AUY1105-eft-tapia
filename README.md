@@ -43,8 +43,8 @@ Consolidado de las evaluaciones parciales 1, 2 y 3. Implementa una solución de 
 Se activa en cada **Pull Request** hacia `main`. Cuatro etapas secuenciales:
 
 ```
-TFLint ──► Checkov ──► terraform validate ──► OPA
-(estático)  (seguridad)  (sintáctico)          (políticas)
+TFLint ──► Checkov ──► terraform validate ──► OPA ──► terraform plan
+(estático)  (seguridad)  (sintáctico)       (políticas)  (reporte)
 ```
 
 | Etapa | Herramienta | Propósito |
@@ -53,6 +53,7 @@ TFLint ──► Checkov ──► terraform validate ──► OPA
 | 2 | **Checkov** | Escaneo de vulnerabilidades de seguridad AWS |
 | 3 | **terraform validate** | Validación sintáctica y coherencia del código |
 | 4 | **OPA** | Evaluación de políticas de seguridad personalizadas |
+| 5 | **terraform plan** | Reporte de cambios propuestos en la infraestructura |
 
 ---
 

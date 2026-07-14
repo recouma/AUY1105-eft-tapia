@@ -17,6 +17,4 @@ locals {
     },
     var.environment == "prod" ? { CriticalLevel = "high" } : {}
   )
-
-  # Nombre formateado para recursos
 }
