@@ -210,3 +210,6 @@ AUY1105-eft-tapia/
 - **`terraform fmt`**: formateo consistente verificado en CI
 - **IMDSv2**: configuración de seguridad avanzada en instancias EC2
 - **Módulos separados**: desacoplamiento de responsabilidades (redes, cómputo, almacenamiento)
+
+---
+Repositorio: https://github.com/recouma/AUY1105-eft-tapia
